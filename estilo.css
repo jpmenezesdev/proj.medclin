@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 1500px;
+}
+.brand__logo{
+    width: 150px;
+}
+
+
+nav {
+    opacity: 0.5;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+
+}
+nav .logo {
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+nav a {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+
+}
+
+nav a:hover {
+    transition: 0.5;
+    background-color:#e4e4e4 ;
+    color:#333;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content:center;
+}
+
+.topo {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 35%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+   
+
+}
+.header {
+    min-height: 200px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    min-height: 150px;
+    
+}
+
+.contat {
+    background-color: aquamarine;
+    min-height: 20px;
+}
+label {
+    display: block;
+}
+
+
+table thead th {
+    background-color: lightgrey;
+       
+}
+
+table tbody tr:nth-last-child(even) {
+    background-color: #f1f1f1;
+}
+table tbody tr:hover th {
+    background-color: #E9E9E9;
+}
+
+table tfoot tr:hover th {
+    background-color: grey;
+}
+
+table {
+    border: solid 1px black;
+    width: 350px;
+}
+
+li {
+    padding: 30px;
+}
+
+h2 {
+    font-size: medium;
+    font-family: sans-serif;
+    color: chocolate;
+    font-size: 10;
+}
+
+.element_1 {
+    color: #DAA520	;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.element_2 {
+    color: #DAA520	;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+input, textarea,button {
+    border-radius: 30px;
+}
